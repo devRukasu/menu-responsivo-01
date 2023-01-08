@@ -1,0 +1,61 @@
+.menu {
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-icon img {
+    width: 38px;
+}
+
+li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+ul.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.login-button {
+    background-color: #25afff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        background-color: black;
+        top: 78px;
+        left: -100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 100%;
+        margin-top: -12px;
+    }
+
+    .container-menu ul.open {
+        left:0;
+    }
+
+    .container-menu ul li {
+        margin: 7px 0px;
+    }
+}

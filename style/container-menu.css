@@ -1,0 +1,12 @@
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 1.4rem 5rem;
+    background-color: black;
+}
+
+nav.container-menu ul li {
+    text-decoration: none;
+}
